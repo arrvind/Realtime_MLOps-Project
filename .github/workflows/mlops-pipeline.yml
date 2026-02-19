@@ -28,6 +28,7 @@ jobs:
     
     - name: Install dependencies
       run: |
+        mkdir data
         pip install -r requirements.txt
     
     - name: Generate dataset
